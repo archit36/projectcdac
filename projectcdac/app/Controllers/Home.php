@@ -25,10 +25,7 @@ class Home extends BaseController
     {
         return view('booktrain');        
     }
-     public function availabletrain(): string
-    {
-        return view('availabletrain');        
-    }
+   
      public function ticket(): string
     {
         return view('ticket');        
@@ -36,5 +33,13 @@ class Home extends BaseController
     public function profile(): string
     {
         return view('profile');        
+    }
+     public function adminlogin(): string
+    {
+        return view('adminlogin');        
+    }
+     public function ticketfare(): string
+    {
+        return view('ticketfare');        
     }
 }
